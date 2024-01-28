@@ -1,0 +1,17 @@
+operator=input("Enter the operator : ")
+a=float(input("Enter the number1 : "))
+b=float(input("Enter the number2 : "))
+if operator=='+':
+    result=a+b
+    print(round(result,3))
+elif operator=='-':
+    result=a-b
+    print(round(result, 3))
+elif operator=='*':
+    result=a*b
+    print(round(result, 3))
+elif operator=='/':
+    result=a/b
+    print(round(result, 3))
+else:
+    print(f'{operator} Invalid Operator')
